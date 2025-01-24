@@ -1,0 +1,3 @@
+# Lua Function Nil Parameter Handling Bug
+
+This repository demonstrates a common bug in Lua functions where the incorrect handling of `nil` parameters can lead to unexpected behavior. The `foo` function in `bug.lua` returns `nil` if either `a` or `b` is `nil`, even though it could potentially still perform a calculation using the other parameter. The corrected function in `bugSolution.lua` demonstrates how to add default values to handle these cases gracefully.
